@@ -83,8 +83,6 @@ nav {
   font-family: Lato, sans-serif;
   width: 100%;
   background-color: #fff;
-  position: fixed;
-  z-index: 2;
 }
 
 .nav-ul {
