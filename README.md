@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://laylooo.github.io/My_Portfolio/)
+[Live Demo Link](https://laylooo.github.io/first_capstone/)
 
 ## Getting Started
 
