@@ -34,7 +34,7 @@ hamBttn.addEventListener('click', () => {
   // Create div for mobile menu
   div.id = 'overlay';
   div.innerHTML = '<img src="./assets/images/cancel.png" class="cancelBttn"</img>'
-  + '<ul class="mobile-menu-ul">'
+    + '<ul class="mobile-menu-ul">'
     + '<li class="mobile-menu-li" id="1"><link href="./index.html">Home</link></li>'
     + '<li class="mobile-menu-li" id="2"><link href="./about.html">About</link></li>'
     + '<li class="mobile-menu-li" id="3"><link href="#section_4">Partners</link></li>'
@@ -59,3 +59,80 @@ hamBttn.addEventListener('click', () => {
     });
   }
 });
+
+// Making dynamic
+
+const myTours = [
+  {
+    imgUrl: './assets/images/tours-image/Samarkand.jpg',
+    price: '$500',
+    overview: 'Samarkand',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+  {
+    imgUrl: './assets/images/tours-image/Bukhara.jpg',
+    price: '$500',
+    overview: 'Bukhara',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+  {
+    imgUrl: './assets/images/tours-image/Khiva.jpg',
+    price: '$700',
+    overview: 'Khiva',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+  {
+    imgUrl: './assets/images/tours-image/Mountains2.jpg',
+    price: '$2000',
+    overview: 'Mountains',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+  {
+    imgUrl: './assets/images/tours-image/Tashkent-City.jpg',
+    price: '$2500',
+    overview: 'Tashkent City',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+  {
+    imgUrl: './assets/images/tours-image/Uzbekistan-summary.jpg',
+    price: '$5000',
+    overview: 'Family vacation package you can travel to the Uzbeksitan',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+];
+
+const createToursSection = () => {
+  if (myTours.length !== 0) {
+    const myToursSection = document.querySelector('.myToursSection');
+    for (let i = 0; i < myTours.length; i += 1) {
+      myToursSection.innerHTML
+        += '<div class="tour-box">'
+        + `<img class="tour-img" src="${myTours[i].imgUrl}" alt="">`
+        + '<div class="tour-text">'
+        + `<h6 class="tour-price">${myTours[i].price}</h6>`
+        + `<p class="tour-overview">${myTours[i].overview}</p>`
+        + `<p class="tour-info">${myTours[i].information}</p>`
+        + '</div>';
+    }
+  }
+};
+
+createToursSection();
