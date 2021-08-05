@@ -1,20 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Capstone: setup and mobile version skeleton
 
-![screenshot](./Screenshot.png)
-
-## Learning objectives
-
-- Understanding how to use FIGMA.
-- Flexbox elements.
-- Using Images.
-- And of course building portfolio project.
+![screenshot](./Screenshot_2.png)
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
@@ -27,8 +21,6 @@ Just simply clone or download the project and open index.html file with your bro
 ## Authors
 
 👤 **Laylo**
-
-👤 **Mateo Viliagomez**
 
 - GitHub: [@githubhandle](https://github.com/Laylooo)
 - Twitter: [@twitterhandle](https://twitter.com/home?lang=en)

@@ -372,7 +372,7 @@ footer {
 .section_2_about {
   position: relative;
   margin-top: 100px;
-  width: 98.5vw;
+  width: 100vw;
   left: 0.01px;
   top: 0.01px;
   margin-left: 0;
@@ -395,7 +395,6 @@ footer {
 .text-2-text {
   font-family: 'Lato', serif;
   font-size: 4vw;
-  margin: 5vw;
   background: white;
   text-align: center;
   padding: 4vw;
@@ -411,6 +410,7 @@ footer {
   margin-left: 0;
   padding-top: 3vw;
   border-top: solid rgb(165, 162, 162);
+  background-color: #fff;
 }
 
 .images-div {
@@ -536,7 +536,6 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 30vw;
 }
 
 .footer-info-about {
@@ -562,7 +561,7 @@ footer {
   font-size: 5vw;
   color: #ec5242;
   width: 70vw;
-  height: 0;
+  height: 15vw;
   margin: 0.001vw;
   padding-top: 4.5vw;
   padding-left: 0;
