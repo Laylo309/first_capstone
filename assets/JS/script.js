@@ -2,10 +2,10 @@
 const div = document.createElement('div');
 const hamBttn = document.querySelector('.menu');
 const header = document.querySelector('header');
-const mainpage = document.querySelector('.section_1');
-const secondSection = document.querySelector('.section_2');
+const mainpage = document.querySelector(['.section_1', '.section_1_about']);
+const secondSection = document.querySelector(['.section_2', '.section_4_about']);
 const thirdSection = document.querySelector('.section_3');
-const fourthSection = document.querySelector('.section_4');
+const fourthSection = document.querySelector(['.section_4', '.section_4_about']);
 const footer = document.querySelector('footer');
 const blurElements = [
   mainpage,
@@ -35,9 +35,9 @@ hamBttn.addEventListener('click', () => {
   div.id = 'overlay';
   div.innerHTML = '<img src="./assets/images/cancel.png" class="cancelBttn"</img>'
     + '<ul class="mobile-menu-ul">'
-    + '<li class="mobile-menu-li" id="1"><link href="./index.html">Home</link></li>'
-    + '<li class="mobile-menu-li" id="2"><link href="./about.html">About</link></li>'
-    + '<li class="mobile-menu-li" id="3"><link href="#section_4">Partners</link></li>'
+    + '<li class="mobile-menu-li" id="1"><a href="index.html">Home</a></li>'
+    + '<li class="mobile-menu-li" id="2"><a href="about.html">About</a></li>'
+    + '<li class="mobile-menu-li" id="3"><a href="#section_2">Partners</a></li>'
     + '</ul>';
   document.body.appendChild(div);
   div.style.display = 'block';
@@ -91,7 +91,7 @@ const myTours = [
       + 'accusantium qui ipsa blanditiis?',
   },
   {
-    imgUrl: './assets/images/tours-image/Mountains2.jpg',
+    imgUrl: './assets/images/tours-image/Mountains.jpg',
     price: '$2000',
     overview: 'Mountains',
     information:
