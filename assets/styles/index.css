@@ -30,6 +30,49 @@ li {
   list-style-type: none;
 }
 
+/* Style for JS */
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #272a31;
+  opacity: 0.9;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cancelBttn,
+#cancel-button {
+  float: right;
+  padding: 25px 30px;
+}
+
+.mobile-menu-ul {
+  margin-top: 15vh;
+  float: left;
+}
+
+.mobile-menu-li {
+  font-family: 'cocogoose', serif;
+  padding: 7px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.blur-content {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+}
+
 /* Header */
 
 nav {
@@ -39,6 +82,9 @@ nav {
   min-height: 8vh;
   font-family: Lato, sans-serif;
   width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 2;
 }
 
 .nav-ul {
@@ -82,6 +128,18 @@ nav {
   text-transform: uppercase;
 }
 
+.about-text {
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  width: 80vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  color: #ec5242;
+  margin-left: 4vw;
+  text-transform: uppercase;
+}
+
 .text {
   font-family: 'Lato', serif;
   font-size: 4vw;
@@ -94,7 +152,7 @@ nav {
 }
 
 /* Section 2 */
-.section-2 {
+.section_2 {
   position: relative;
   margin-top: 10vw;
   width: 102vw;
@@ -181,7 +239,7 @@ h5 {
 
 /* Section 3 */
 
-.section-3 {
+.section_3 {
   position: relative;
   margin-top: 10vw;
   width: 102vw;
@@ -281,7 +339,7 @@ h5 {
 }
 
 /* Section 4, Footer */
-.section-4,
+.section_4,
 footer {
   display: none;
 }
@@ -307,7 +365,7 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     width: 100vw;
-    height: 50px;
+    height: 10vh;
     padding: 0.001vw;
   }
 
@@ -355,7 +413,7 @@ footer {
 
   /* Section 2 */
 
-  .section-2 {
+  .section_2 {
     position: relative;
     margin-top: 100px;
     width: 98.5vw;
@@ -456,7 +514,7 @@ footer {
 
   /* Section 3 */
 
-  .section-3 {
+  .section_3 {
     padding-top: 3vw;
   }
 
@@ -537,7 +595,7 @@ footer {
   }
 
   /* Section 4 */
-  .section-4 {
+  .section_4 {
     display: flex;
     flex-direction: column;
     width: 98.5vw;
