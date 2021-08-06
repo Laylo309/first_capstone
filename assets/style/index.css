@@ -129,6 +129,7 @@ nav {
   color: #ec5242;
   margin-left: 4vw;
   text-transform: uppercase;
+  mix-blend-mode: multiply;
 }
 
 .about-text {
@@ -356,7 +357,7 @@ footer {
 /* Section 1 About */
 .main-text-about {
   font-family: 'cocogoose', sans-serif;
-  font-size: 5vw;
+  font-size: 3.5vw;
   width: 60vw;
   margin-top: 10vw;
   margin-bottom: 1vw;
@@ -607,7 +608,7 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     width: 100vw;
-    height: 10vh;
+    height: 12vh;
     padding: 0.001vw;
   }
 
@@ -644,9 +645,11 @@ footer {
   }
 
   .logo-img {
-    height: 3vw;
     width: 50vw;
     padding-right: 10vw;
+    display: flex;
+    height: 55px;
+    align-items: center;
   }
 
   /* Section 1 */
@@ -991,25 +994,30 @@ footer {
   /* Section 1 About */
   .main-text-about {
     font-family: 'cocogoose', sans-serif;
-    font-size: 5vw;
+    font-size: 3.5vw;
     width: 60vw;
     margin-top: 10vw;
     margin-bottom: 1vw;
     margin-left: 20vw;
     text-align: center;
     color: #ec5242;
+    line-height: 5vw;
+    mix-blend-mode: multiply;
   }
 
   .text-about {
     font-family: 'Lato', serif;
-    font-size: 1vw;
+    font-size: 14px;
+    font-weight: 700;
+    color: #524f4f;
     margin-top: 1vw;
     margin-left: 20vw;
     width: 60vw;
     background: white;
     text-align: center;
     padding: 3vw;
-    border: solid rgb(165, 162, 162);
+    border: solid #f8f8f8;
+    line-height: 5vh;
   }
 
   /* Section 2 About */

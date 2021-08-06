@@ -1,127 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <title>Tourism Website</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/style/index.css">
-	<title>Tourism Website</title>
-</head>
+  <body>
+    <header>
+      <nav class="menu">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <ul class="nav-ul-first">
+        <li class="navbar-first">
+          <a class="nav-link-first" href="#">English</a>
+        </li>
+        <li class="navbar-first">
+          <a class="nav-link-first" href="#">My Page</a>
+        </li>
+        <li class="navbar-first">
+          <a class="nav-link-first" href="#">Logout</a>
+        </li>
+      </ul>
+      <ul class="nav-ul">
+        <li>
+          <a href="./index.html">
+            <img class="logo-img" src="./assets/images/logo.svg" alt=""
+          /></a>
+        </li>
+        <li class="navbar">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="navbar">
+          <a class="nav-link" href="#section_2">Benefits</a>
+        </li>
+        <li class="navbar"><a class="nav-link" href="#section_3">Tours</a></li>
+        <li class="navbar">
+          <a class="nav-link" href="#section_4">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <section class="section_1" id="section_1">
+      <h2 class="text-hello">"Hello! Our New Tourist"</h2>
+      <h2 class="main-text">Your Perfect Tour in Uzbekistan Starts Here!</h2>
+      <p class="text">
+        If you are planning a trip to Uzbekistan, Lorem ipsum is the best
+        choice.Just specify the region you prefer to visit and one of our expert
+        travel guides will provide you with a well-thought-out vacation plan.
+        Book your trip and enjoy the amazing experience!
+      </p>
+      <h2 class="date-text">2021.09.27(MON) ~ 30(WED)</h2>
+      <h3 class="location-text">@Samarkand,Registan and more</h3>
+    </section>
 
-<body>
-	<header>
+    <section class="section_2" id="section_2">
+      <h2 class="text-2">Main benefits</h2>
+      <div class="line-separator"></div>
+      <div class="section2-box">
+        <div class="box">
+          <img
+            class="box-icons"
+            src="./assets/images/icons/map_white_48dp.svg"
+            alt=""
+          />
+          <h5>What we offer</h5>
+          <p class="box-text">
+            We offer hundreds of sightseeing tours and custom packages which can
+            meet any taste and budget.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            class="box-icons"
+            src="./assets/images/icons/paid_white_48dp.svg"
+            alt=""
+          />
+          <h5>Our prices</h5>
+          <p class="box-text">
+            We offer everything according to your taste and budget.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            class="box-icons"
+            src="./assets/images/icons/verified_white_48dp.svg"
+            alt=""
+          />
+          <h5>Our experience</h5>
+          <p class="box-text">
+            Each of our travel specialists meets first-class industry standards
+            and has at least 4.5 out of 5-star rating.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            class="box-icons"
+            src="./assets/images/icons/thumb_up_alt_white_48dp.svg"
+            alt=""
+          />
+          <h5>Satisfaction guaranteed</h5>
+          <p class="box-text">
+            Our experienced travel agents guarantee each client the most
+            enjoyable and memorable experience.
+          </p>
+        </div>
+      </div>
+      <button type="button" class="btn">Book a tour</button>
+      <h2 class="all-benefits">SEE THE WHOLE BENEFITS</h2>
+    </section>
 
-		<nav class="menu">
-			<div class="burger">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-		<ul class="nav-ul-first">
-			<li class="navbar-first"><a class="nav-link-first" href="#">English</a></li>
-			<li class="navbar-first"><a class="nav-link-first" href="#">My Page</a></li>
-			<li class="navbar-first"><a class="nav-link-first" href="#">Logout</a></li>
-		</ul>
-		<ul class="nav-ul">
-			<li><a href="./index.html">
-					<img class="logo-img" src="./assets/images/logo.svg" alt=""></a></li>
-			<li class="navbar"><a class="nav-link" href="./about.html">About</a></li>
-			<li class="navbar"><a class="nav-link" href="#section_2">Benefits</a></li>
-			<li class="navbar"><a class="nav-link" href="#section_3">Tours</a></li>
-			<li class="navbar"><a class="nav-link" href="#section_4">Contact</a></li>
-		</ul>
-	</header>
-	<section class="section_1" id="section_1">
+    <section class="section_3" id="section_3">
+      <h2 class="text-3">Popular tours</h2>
+      <div class="line-separator"></div>
+      <div class="tours-box myToursSection"></div>
+      <div class="line-separator2"></div>
+      <div id="more-btn" class="more-btn">
+        <h6 id="more-btn-text" class="more-btn-text">MORE</h6>
+        <img
+          id="more-icon"
+          class="more-icon"
+          src="./assets/images/icons/arrow-down.png"
+          alt=""
+        />
+      </div>
+    </section>
 
-		<h2 class="text-hello">"Hello! Our New Tourist"</h2>
-		<h2 class="main-text">
-			Your Perfect Tour in Uzbekistan Starts Here!
-		</h2>
-		<p class="text">
-			If you are planning a trip to Uzbekistan, Lorem ipsum is the best choice.Just specify the region you
-			prefer
-			to visit and one of our expert travel guides will provide you with a well-thought-out vacation plan. Book
-			your trip and enjoy the amazing experience!
-		</p>
-		<h2 class="date-text">2021.09.27(MON) ~ 30(WED)</h2>
-		<h3 class="location-text">@Samarkand,Registan and more</h3>
-	</section>
-
-	<section class="section_2" id="section_2">
-		<h2 class="text-2">Main benefits</h2>
-		<div class="line-separator"></div>
-		<div class="section2-box">
-			<div class="box">
-				<img class="box-icons" src="./assets/images/icons/map_white_48dp.svg" alt="">
-				<h5>What we offer</h5>
-				<p class="box-text">We offer hundreds of sightseeing tours and custom packages which can meet any
-					taste
-					and budget.
-				</p>
-			</div>
-			<div class="box">
-				<img class="box-icons" src="./assets/images/icons/paid_white_48dp.svg" alt="">
-				<h5>Our prices</h5>
-				<p class="box-text">We offer everything according to your
-					taste
-					and budget.
-				</p>
-			</div>
-			<div class="box">
-				<img class="box-icons" src="./assets/images/icons/verified_white_48dp.svg" alt="">
-				<h5>Our experience</h5>
-				<p class="box-text">Each of our travel specialists meets first-class industry standards and has at
-					least
-					4.5 out of 5-star
-					rating.
-				</p>
-			</div>
-			<div class="box">
-				<img class="box-icons" src="./assets/images/icons/thumb_up_alt_white_48dp.svg" alt="">
-				<h5>Satisfaction guaranteed</h5>
-				<p class="box-text">Our experienced travel agents guarantee each client the most enjoyable and
-					memorable
-					experience.
-				</p>
-			</div>
-		</div>
-		<button type="button" class="btn">Book a tour</button>
-		<h2 class="all-benefits">SEE THE WHOLE BENEFITS</h2>
-	</section>
-
-	<section class="section_3" id="section_3">
-		<h2 class="text-3">Popular tours</h2>
-		<div class="line-separator"></div>
-		<div class="tours-box myToursSection"></div>
-		<div class="line-separator2"></div>
-		<div id="more-btn" class="more-btn">
-			<h6 id="more-btn-text" class="more-btn-text">MORE</h6>
-			<img id="more-icon" class="more-icon" src="./assets/images/icons/arrow-down.png" alt="">
-		</div>
-	</section>
-
-	<section id="section_4" class="section_4">
-		<h2 class="text-4">Partners</h2>
-		<div class="line-separator"></div>
-		<ul class="partners-list">
-			<li class="partners"><img class="partners-img1" src="./assets/images/partners/NBU.png" alt=""></li>
-			<li class="partners"><img class="partners-img2" src="./assets/images/partners/Advantour.png" alt=""></li>
-			<li class="partners"><img class="partners-img3" src="./assets/images/partners/YandexTaxi.png" alt="">
-			</li>
-			<li class="partners"><img class="partners-img4" src="./assets/images/partners/click.png" alt=""></li>
-		</ul>
-	</section>
-	<footer class="footer">
-		<img class="logo-img2" src="./assets/images/logo.svg" alt="">
-		<div class="footer-text">
-			<h5 class="footer-logo">Lorem Ipsum</h5>
-			<p class="footer-info">Phone:+123456789</p>
-			<p class="footer-info">All rights reserved.</p>
-		</div>
-	</footer>
-	<script src="./assets/JS/script.js"></script>
-</body>
-
+    <section id="section_4" class="section_4">
+      <h2 class="text-4">Partners</h2>
+      <div class="line-separator"></div>
+      <ul class="partners-list">
+        <li class="partners">
+          <img
+            class="partners-img1"
+            src="./assets/images/partners/NBU.png"
+            alt=""
+          />
+        </li>
+        <li class="partners">
+          <img
+            class="partners-img2"
+            src="./assets/images/partners/Advantour.png"
+            alt=""
+          />
+        </li>
+        <li class="partners">
+          <img
+            class="partners-img3"
+            src="./assets/images/partners/YandexTaxi.png"
+            alt=""
+          />
+        </li>
+        <li class="partners">
+          <img
+            class="partners-img4"
+            src="./assets/images/partners/click.png"
+            alt=""
+          />
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <img class="logo-img2" src="./assets/images/logo.svg" alt="" />
+      <div class="footer-text">
+        <h5 class="footer-logo">Lorem Ipsum</h5>
+        <p class="footer-info">Phone:+123456789</p>
+        <p class="footer-info">All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./assets/JS/script.js"></script>
+  </body>
 </html>
