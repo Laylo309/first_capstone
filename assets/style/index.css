@@ -153,7 +153,6 @@ nav {
   margin-left: 3vw;
   border: solid white;
   padding: 10px;
-  color: #272a31;
 }
 
 /* Section 2 */
@@ -687,6 +686,7 @@ footer {
     background-color: #f7f7f7;
     padding: 25px;
     line-height: 25px;
+  }
   }
 
   .date-text {
