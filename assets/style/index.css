@@ -1018,11 +1018,10 @@ footer {
     padding: 3vw;
     border: solid #f8f8f8;
     line-height: 25px;
-    /* background: #fff; */
   }
 
   /* Section 2 About */
-  
+
   .section_2_about {
     position: relative;
     margin-top: 100px;
