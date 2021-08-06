@@ -1009,7 +1009,7 @@ footer {
     font-family: 'Lato', serif;
     font-size: 14px;
     font-weight: 700;
-    color: #524f4f;
+    color: #706f6f;
     margin-top: 1vw;
     margin-left: 20vw;
     width: 60vw;
@@ -1017,7 +1017,8 @@ footer {
     text-align: center;
     padding: 3vw;
     border: solid #f8f8f8;
-    line-height: 5vh;
+    line-height: 25px;
+    /* background: #fff; */
   }
 
   /* Section 2 About */
@@ -1043,6 +1044,7 @@ footer {
     align-content: center;
     justify-content: center;
     font-weight: 600;
+    line-height: 14px;
   }
 
   .text-2-text {
