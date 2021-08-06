@@ -146,6 +146,7 @@ nav {
 
 .text {
   font-family: 'Lato', serif;
+  color: #272a31;
   font-size: 4vw;
   width: 90vw;
   margin-top: 3vw;
@@ -677,12 +678,15 @@ footer {
 
   .text {
     font-family: 'Lato', serif;
-    font-size: 1.2vw;
-    width: 60vw;
+    font-weight: 700;
+    font-size: 14px;
+    width: 50vw;
     margin-top: 1vw;
     margin-left: 8vw;
     border: solid white 7px;
     background-color: #f7f7f7;
+    padding: 25px;
+    line-height: 25px;
   }
 
   .date-text {
