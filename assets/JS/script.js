@@ -72,8 +72,18 @@ const myTours = [
       + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
       + 'accusantium qui ipsa blanditiis?',
   },
+
   {
-    imgUrl: './assets/images/tours-image/Bukhara.jpg',
+    imgUrl: './assets/images/tours-image/Tashkent-City.jpg',
+    price: '$2500',
+    overview: 'Tashkent City',
+    information:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
+      + 'accusantium qui ipsa blanditiis?',
+  },
+  {
+    imgUrl: './assets/images/tours-image/bukhara-city.jpg',
     price: '$500',
     overview: 'Bukhara',
     information:
@@ -99,15 +109,7 @@ const myTours = [
       + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
       + 'accusantium qui ipsa blanditiis?',
   },
-  {
-    imgUrl: './assets/images/tours-image/Tashkent-City.jpg',
-    price: '$2500',
-    overview: 'Tashkent City',
-    information:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
-  },
+
   {
     imgUrl: './assets/images/tours-image/Uzbekistan-summary.jpg',
     price: '$5000',
