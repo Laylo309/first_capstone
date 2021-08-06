@@ -38,7 +38,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--Microverse
+- Cindy Shin
 
 ## 📝 License
 

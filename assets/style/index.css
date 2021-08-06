@@ -115,6 +115,9 @@ nav {
 
 /* Section 1 */
 
+.text-hello {
+  display: none;
+}
 .main-text {
   font-family: 'cocogoose', sans-serif;
   font-weight: 900;
@@ -256,6 +259,10 @@ h5 {
   margin-top: 8vw;
   margin-left: 33.5vw;
   color: #272a31;
+}
+
+.line-separator-mini {
+  display: none;
 }
 
 .tour-text {
@@ -588,7 +595,7 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     width: 100vw;
-    height: 6vh;
+    height: 7vh;
     padding: 0.001vw;
   }
 
@@ -599,7 +606,7 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     width: 100vw;
-    height: 8vh;
+    height: 10vh;
     padding: 0.001vw;
   }
 
@@ -642,21 +649,35 @@ footer {
   }
 
   /* Section 1 */
-  .main-text {
-    font-family: 'cocogoose', sans-serif;
-    font-size: 5vw;
+
+  .text-hello {
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #ec5242;
     width: 60vw;
     margin-top: 10vw;
+    margin-bottom: 1vw;
+    margin-left: 9vw;
+    display: flex;
+  }
+  .main-text {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 3.5vw;
+    width: 60vw;
+    margin-top: 2vw;
     margin-bottom: 1vw;
     margin-left: 9vw;
   }
 
   .text {
     font-family: 'Lato', serif;
-    font-size: 2vw;
+    font-size: 1.2vw;
     width: 60vw;
     margin-top: 1vw;
     margin-left: 8vw;
+    border: solid white 7px;
+    background-color: #f7f7f7;
   }
 
   .date-text {
@@ -671,9 +692,9 @@ footer {
 
   .location-text {
     font-family: 'Lato', serif;
-    font-size: 2vw;
+    font-size: 1.2vw;
     width: 70vw;
-    margin-top: 3vw;
+    margin-top: 1vw;
     margin-left: 9vw;
     margin-bottom: 1vw;
     color: #272a31;
@@ -710,6 +731,16 @@ footer {
     width: 10vw;
     margin-top: 1vw;
     margin-bottom: 5vw;
+  }
+
+  .line-separator-mini {
+    border-bottom-style: solid;
+    border-width: 0.1vw;
+    border-bottom-color: #ec5242;
+    width: 1vw;
+    margin-top: 0vw;
+    margin-bottom: 0.5vw;
+    display: flex;
   }
 
   .box {
@@ -784,7 +815,7 @@ footer {
 
   .section_3 {
     padding-top: 3vw;
-    background-color: #f8f8f8;
+    background-color: #f7f7f7;
   }
 
   .text-3 {
@@ -807,6 +838,7 @@ footer {
     margin-right: 0;
     height: auto;
     width: auto;
+    background-color: #f7f7f7;
   }
 
   .tour-box {
@@ -819,7 +851,7 @@ footer {
   }
 
   .tour-img {
-    width: 15vw;
+    width: 13vw;
     height: 10vw;
   }
 
@@ -836,7 +868,7 @@ footer {
 
   .tour-price {
     margin-top: 0.001vw;
-    margin-bottom: 1vw;
+    margin-bottom: 0;
     font-family: Lato, serif;
     color: #272a31;
     font-size: 2vw;
@@ -848,6 +880,7 @@ footer {
     font-style: italic;
     color: #ec5242;
     font-size: 0.8vw;
+    margin-bottom: 1vw;
   }
 
   .tour-info {

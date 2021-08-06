@@ -69,8 +69,7 @@ const myTours = [
     overview: 'Samarkand',
     information:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus',
   },
 
   {
@@ -79,8 +78,7 @@ const myTours = [
     overview: 'Tashkent City',
     information:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus',
   },
   {
     imgUrl: './assets/images/tours-image/bukhara-city.jpg',
@@ -88,8 +86,7 @@ const myTours = [
     overview: 'Bukhara',
     information:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus',
   },
   {
     imgUrl: './assets/images/tours-image/Khiva.jpg',
@@ -97,8 +94,7 @@ const myTours = [
     overview: 'Khiva',
     information:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus',
   },
   {
     imgUrl: './assets/images/tours-image/Mountains.jpg',
@@ -106,18 +102,16 @@ const myTours = [
     overview: 'Mountains',
     information:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus',
   },
 
   {
     imgUrl: './assets/images/tours-image/Uzbekistan-summary.jpg',
     price: '$5000',
-    overview: 'Family vacation package you can travel to the Uzbeksitan',
+    overview: 'Uzbeksitan',
     information:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem ipsum'
-      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus'
-      + 'accusantium qui ipsa blanditiis?',
+      + 'ea,atque velit eaque temporibus nesciunt sint mollitia suscipit corrupti eius repellendus',
   },
 ];
 
@@ -131,6 +125,7 @@ const createToursSection = () => {
         + '<div class="tour-text">'
         + `<h6 class="tour-price">${myTours[i].price}</h6>`
         + `<p class="tour-overview">${myTours[i].overview}</p>`
+        +'<div class="line-separator-mini"></div>'
         + `<p class="tour-info">${myTours[i].information}</p>`
         + '</div>';
     }
