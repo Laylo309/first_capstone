@@ -597,7 +597,7 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     width: 100vw;
-    height: 7vh;
+    height: 2vw;
     padding: 0.001vw;
   }
 
@@ -608,7 +608,7 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     width: 100vw;
-    height: 12vh;
+    height: 3.5vw;
     padding: 0.001vw;
   }
 
