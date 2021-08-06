@@ -592,7 +592,7 @@ footer {
     padding: 0.001vw;
   }
 
-  .nav-ul { 
+  .nav-ul {
     box-shadow: 0 10px 10px 0 rgb(0 0 0 / 10%);
     background-color: white;
     display: flex;
@@ -610,7 +610,7 @@ footer {
     text-decoration: none;
     color: black;
   }
-  
+
   .navbar-first {
     padding: 0.5vw 2vw 2vw 1vw;
     font-family: Lato, serif;
@@ -625,10 +625,11 @@ footer {
 
   .nav-link-first {
     color: #fff;
-    font-size:0.9vw;
+    font-size: 0.9vw;
   }
 
-  .nav-link:hover,.nav-link-first:hover {
+  .nav-link:hover,
+  .nav-link-first:hover {
     color: #ec5242;
     opacity: 10;
     transition: ease-in-out 0.3s;
@@ -666,7 +667,6 @@ footer {
     margin-left: 9vw;
     margin-bottom: 1vw;
     color: #272a31;
-
   }
 
   .location-text {
@@ -816,7 +816,6 @@ footer {
     height: 20vw;
     transition: ease-in-out 0.3s;
     padding-right: 2vw;
-
   }
 
   .tour-img {
