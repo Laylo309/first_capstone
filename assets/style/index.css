@@ -118,6 +118,7 @@ nav {
 .text-hello {
   display: none;
 }
+
 .main-text {
   font-family: 'cocogoose', sans-serif;
   font-weight: 900;
@@ -661,6 +662,7 @@ footer {
     margin-left: 9vw;
     display: flex;
   }
+
   .main-text {
     font-family: 'cocogoose', sans-serif;
     font-size: 3.5vw;
@@ -738,7 +740,7 @@ footer {
     border-width: 0.1vw;
     border-bottom-color: #ec5242;
     width: 1vw;
-    margin-top: 0vw;
+    margin-top: 0;
     margin-bottom: 0.5vw;
     display: flex;
   }

@@ -125,7 +125,7 @@ const createToursSection = () => {
         + '<div class="tour-text">'
         + `<h6 class="tour-price">${myTours[i].price}</h6>`
         + `<p class="tour-overview">${myTours[i].overview}</p>`
-        +'<div class="line-separator-mini"></div>'
+        + '<div class="line-separator-mini"></div>'
         + `<p class="tour-info">${myTours[i].information}</p>`
         + '</div>';
     }
